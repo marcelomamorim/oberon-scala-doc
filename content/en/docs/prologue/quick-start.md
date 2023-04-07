@@ -1,7 +1,7 @@
 ---
 title: "Quick Start"
-description: "One page summary of how to start a new Doks project."
-lead: "One page summary of how to start a new Doks project."
+description: "One page summary of how to start."
+lead: "One page summary of how to start."
 date: 2020-11-16T13:59:39+01:00
 lastmod: 2020-11-16T13:59:39+01:00
 draft: false
@@ -15,62 +15,59 @@ toc: true
 
 ## Requirements
 
-- [Git](https://git-scm.com/) — latest source release
-- [Node.js](https://nodejs.org/) — latest LTS version or newer
+- [git](https://git-scm.com/) — latest source release
+- [jdk](https://jdk.java.net/11/) — latest LTS version or newer
+- [sbt](https://www.scala-sbt.org/1.x/docs/Installing-sbt-on-Linux.html)
 
-{{< details "Why Node.js?" >}}
-Doks uses npm (included with Node.js) to centralize dependency management, making it [easy to update]({{< relref "how-to-update" >}}) resources, build tooling, plugins, and build scripts.
+{{< details "Why Jdk, Git and Sbt?" >}}
+
+As written in Scala Doc (https://docs.scala-lang.org/overviews/jdk-compatibility/overview.html):
+"Scala’s primary platform is the Java Virtual Machine (JVM)".
+
+We use Git to versioning.
+
+Sbt is a build tool (doc) for Scala. Similar to Maven in Java context and Npm for Javascript.
+See their doc: https://www.scala-sbt.org/1.x/docs/Howto-Scaladoc.html
+
 {{< /details >}}
 
-## Start a new Doks project
+## Installing requirements
 
-Create a new site, change directories, install dependencies, and start development server.
-
-### Create a new site
-
-Doks is available as a child theme and a starter theme.
-
-#### Child theme
-
-- Intended for novice to intermediate users
-- Intended for minor customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}}) — __including__ [Doks](https://www.npmjs.com/package/@hyas/doks)
-
-```bash
-git clone https://github.com/h-enk/doks-child-theme.git my-doks-site
+#### Git
+``` bash
+ sudo apt install git-all
 ```
 
-#### Starter theme
-
-- Intended for intermediate to advanced users
-- Intended for major customizations
-- [Easily update npm packages]({{< relref "how-to-update" >}})
-
-```bash
-git clone https://github.com/h-enk/doks.git my-doks-site
+#### Jdk
+``` bash
+ sudo apt install default-jdk
 ```
 
-{{< details "Help me choose" >}}
-Not sure which one is for you? Pick the child theme.
-{{< /details >}}
-
-### Change directories
-
-```bash
-cd my-doks-site
+#### Sbt (first install SDKMAN ::> https://sdkman.io/install)
+``` bash
+sdk install sbt
 ```
 
-### Install dependencies
+## Optional to install
 
-```bash
-npm install
+- Intellij (IDE): You can use any IDE
+- Intellij Plugin For Scala 
+
+
+## Compile the project
+
+``` bash
+sbt clean compile
 ```
 
-### Start development server
-
-```bash
-npm run start
+## Run tests
+``` bash
+sbt test
 ```
 
-Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
+## Generate executable (.jar) file
+``` bash
+sbt assembly
+```
 
+See full documentation here: https://github.com/UnBCIC-TP2/Oberon-Scala/blob/master/README.md
