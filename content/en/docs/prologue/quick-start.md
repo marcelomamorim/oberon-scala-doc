@@ -62,22 +62,15 @@ sbt compile
 
 Expected output:
 
-...
-## sbt compile
-
 ![sbt compile](/images/sbt-compile.gif)
-...
+
 
 ## Run tests
 ``` bash
 sbt test
 ```
 
-...
-## sbt test
-
 ![sbt test](/images/sbt-test.gif)
-...
 
 ## Generate executable (.jar) file
 ``` bash

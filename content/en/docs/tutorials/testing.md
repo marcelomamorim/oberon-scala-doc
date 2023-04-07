@@ -40,5 +40,4 @@ Run test. If it doesn't work very well, check out the video tutorial, it may hel
 ## Testing sample
 
 ![new test](/images/adding-unit-test.gif)
-...
 
