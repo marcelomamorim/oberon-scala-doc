@@ -1,6 +1,6 @@
-name = "Doks"
+name = "Oberon"
 license = "MIT"
-licenselink = "https://github.com/h-enk/doks/blob/master/LICENSE"
+licenselink = "https://github.com/UnBCIC-TP2/Oberon-Scala"
 description = "Hugo theme helping you build modern documentation websites that are secure, fast, and SEO-ready — by default."
 
 homepage = "https://github.com/h-enk/doks"
