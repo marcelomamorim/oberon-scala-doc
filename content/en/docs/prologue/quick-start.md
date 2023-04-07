@@ -60,10 +60,16 @@ sdk install sbt
 sbt clean compile
 ```
 
+Expected output:
+
+![sbt clean compile](../assets/sbt-compile.gif)
+
 ## Run tests
 ``` bash
 sbt test
 ```
+
+![sbt clean compile](../assets/sbt-test.gif)
 
 ## Generate executable (.jar) file
 ``` bash
