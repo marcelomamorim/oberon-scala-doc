@@ -62,7 +62,7 @@ sbt compile
 
 Expected output:
 
-![sbt compile](/images/sbt-compile.gif)
+![sbt compile](/oberon-scala-doc/images/sbt-compile.gif)
 
 
 ## Run tests
@@ -70,11 +70,17 @@ Expected output:
 sbt test
 ```
 
-![sbt test](/images/sbt-test.gif)
+Expected output:
+
+![sbt test](/oberon-scala-doc/images/sbt-test.gif)
 
 ## Generate executable (.jar) file
 ``` bash
 sbt assembly
 ```
+
+Expected output:
+
+![sbt test](/oberon-scala-doc/images/sbt-assembly.gif)
 
 See full documentation here: https://github.com/UnBCIC-TP2/Oberon-Scala/blob/master/README.md
