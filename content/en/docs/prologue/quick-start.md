@@ -57,19 +57,27 @@ sdk install sbt
 ## Compile the project
 
 ``` bash
-sbt clean compile
+sbt compile
 ```
 
 Expected output:
 
-![sbt clean compile](https://github.com/marcelomamorim/oberon-scala-doc/tree/main/assets/sbt-compile.gif)
+...
+## sbt compile
+
+![sbt compile](/images/sbt-compile.gif)
+...
 
 ## Run tests
 ``` bash
 sbt test
 ```
 
-![sbt clean compile](https://github.com/marcelomamorim/oberon-scala-doc/tree/main/assets/sbt-test.gif)
+...
+## sbt test
+
+![sbt test](/images/sbt-test.gif)
+...
 
 ## Generate executable (.jar) file
 ``` bash
