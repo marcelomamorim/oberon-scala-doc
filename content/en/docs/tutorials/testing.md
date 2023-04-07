@@ -36,8 +36,5 @@ Adding new unit test:
 
 Run test. If it doesn't work very well, check out the video tutorial, it may help you:
 
-...
-## Testing sample
-
-![new test](/images/adding-unit-test.gif)
+![new test](/oberon-scala-doc/images/adding-unit-test.gif)
 
