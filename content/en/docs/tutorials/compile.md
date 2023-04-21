@@ -13,9 +13,9 @@ weight: 130
 toc: true
 ---
 
-## Execute compile command
+## Executando compição
 
-One case of running compilation command from our compiler:
+1 - Uma opção de compilação:
 
 ```
 
@@ -23,3 +23,14 @@ compile -b jvm -i /home/bits/Documents/github-repos/unb/Oberon-Scala/src/test/re
 
 ```
 
+2- Outra opção:
+
+```
+
+compile -b c -i /home/bits/Documents/github-repos/unb/Oberon-Scala/src/test/resources/procedures/procedure03.oberon -o /home/bits/Documents/github-repos/unb/Oberon-Scala/output/bytecode.c 
+
+```
+
+3 - Detalhando:
+
+Podemos escolher qual backend iremos selecionar passando o parâmetro '-b' (c, jvm, llvm).
