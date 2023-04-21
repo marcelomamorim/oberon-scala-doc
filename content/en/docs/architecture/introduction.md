@@ -14,3 +14,8 @@ toc: true
 ---
 
 ## Introduction
+
+Estilo arquitetural "Pipelines" ou "Múltiplos Estágios".
+
+![Modelo de arquitetura](/oberon-scala-doc/images/arch-geral-modelo-1.png)
+
