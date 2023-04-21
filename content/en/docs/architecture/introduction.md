@@ -19,7 +19,7 @@ Estilo arquitetural "Pipelines" ou "Múltiplos Estágios".
 
 ![Modelo de arquitetura](/oberon-scala-doc/images/arch-geral-modelo-1.png)
 
-## Compilar
+#### Compilação
 
 Nosso compilador desenvolvido em escala pode seguir alguns caminhos de compilação:
 
